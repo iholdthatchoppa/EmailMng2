@@ -1,0 +1,126 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: #96d9ff;
+  text-align: center;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+button[type="button"] {
+  background-color: #00ca76;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color: #00ca76;
+}
+
+button[type="submit"] {
+  background-color: #00a2ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #00a2ff;
+}
+
+.header {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  color: #ccc;
+}
+
+.bottom-right-image {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  max-width: 200px;
+}
+
+.compose-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.compose-button img {
+  width: 60px;
+  height: 60px;
+}
+
+.email-container {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.navbar-divider {
+  height: 1px;
+  background-color: #ccc;
+  margin: 0 10px;
+}
+
+.mail-envelope {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.inbox-sidebar {
+  background-color: white;
+  padding: 20px;
+  width: 300px; /* Add a fixed width for the sidebar */
+  border-radius: 5px;
+  margin-right: 20px; /* Add margin-right to create spacing between the sidebar and email list */
+}
