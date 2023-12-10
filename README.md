@@ -1,2 +1,5 @@
-Front-end client development code for the All-in-one Email System.
-This is my first project I worked on and there is still more to come as it only covers the foundation of the app.
+Intro
+
+This project is aimed at assisting people with multiple emails. The web application is aimed to provide an intuitive UI for users to access multiple emails in one place. The main use case was a virtual work environment combining personal and work emails. 
+
+The challenge with this project was working with the email service providers API such as Gmail, Outlook, Yahoo, etc. Their extensive security check prevented the application from progressing smoothly. 
